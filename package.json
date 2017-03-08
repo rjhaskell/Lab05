@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/rjhaskell/Lab05#readme",
   "devDependencies": {
+    "@types/es6-promise": "0.0.32",
     "@types/jquery": "^2.0.40",
     "lite-server": "^2.2.2"
   }

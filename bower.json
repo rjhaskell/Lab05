@@ -1,0 +1,20 @@
+{
+  "name": "lab05",
+  "description": "See Readme.md",
+  "main": "app.js",
+  "authors": [
+    "Robert Haskell"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rjhaskell/Lab05",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "es6-promise": "^4.0.5"
+  }
+}
