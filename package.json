@@ -1,0 +1,24 @@
+{
+  "name": "lab05",
+  "version": "1.0.0",
+  "description": "See Readme.md",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjhaskell/Lab05.git"
+  },
+  "author": "Robert Haskell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjhaskell/Lab05/issues"
+  },
+  "homepage": "https://github.com/rjhaskell/Lab05#readme",
+  "devDependencies": {
+    "@types/jquery": "^2.0.40",
+    "lite-server": "^2.2.2"
+  }
+}
