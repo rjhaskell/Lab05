@@ -1,6 +1,6 @@
  // this method returns products in 1 and 1/2 seconds
     function getProducts() {
-        return new Promise((resolve, reject) => {
+       return new Promise((resolve, reject) => {
             window.setTimeout(
                 function () {
                     if (Math.random() >= 0.5) {
@@ -17,4 +17,10 @@
             );
         })
     }
-console.log('Promise(true)');
+
+let p = getProducts();
+p.then((result) => {
+    console.log(result);
+}).catch((result) => {
+    console.log(result);
+});
